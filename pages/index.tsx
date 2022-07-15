@@ -8,7 +8,7 @@ import ProjectPreview from "../components/project-preview";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="text-slate-700">
       <Header />
       <Profile />
       <div>
