@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../components/footer";
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +11,7 @@ const Home: NextPage = () => {
       <div>Welcome!</div>
       <div>Some Text</div>
       <div>Project 1</div>
-      <div>Designed and built Stephanie</div>
+      <Footer />
     </div>
   );
 };
