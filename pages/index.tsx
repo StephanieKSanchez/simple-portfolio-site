@@ -10,7 +10,7 @@ import ProjectPreview from "../components/project-preview";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="text-slate-700">
+      <div className="text-slate-700 flex flex-col gap-4">
         <Header />
         <Profile />
         <div>
