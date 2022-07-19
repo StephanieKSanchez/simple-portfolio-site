@@ -4,7 +4,7 @@ const ProjectPreview = () => {
 
   return (
     <div>
-      <a href={"/"} className="font-bold underline">
+      <a href={"/"} className="font-bold underline hover:text-indigo-600">
         {title}
       </a>
       <div>{desc}</div>
