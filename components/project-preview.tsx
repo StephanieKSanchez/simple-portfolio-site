@@ -4,7 +4,7 @@ const ProjectPreview = () => {
 
   return (
     <div>
-      <div>{title}</div>
+      <div className="font-bold underline">{title}</div>
       <div>{desc}</div>
     </div>
   );
