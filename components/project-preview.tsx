@@ -5,14 +5,16 @@ const ProjectPreview = () => {
   const desc: string = "Processes data in Python";
 
   return (
-    <div>
-      <div className="relative w-32 h-32">
+    <div className="flex">
+      <div className="relative w-32 h-16">
         <Image src={"/coding.jpg"} layout="fill" />
       </div>
-      <a href={"/"} className="font-bold underline hover:text-indigo-600">
-        {title}
-      </a>
-      <div>{desc}</div>
+      <div>
+        <a href={"/"} className="font-bold underline hover:text-indigo-600">
+          {title}
+        </a>
+        <div>{desc}</div>
+      </div>
     </div>
   );
 };
