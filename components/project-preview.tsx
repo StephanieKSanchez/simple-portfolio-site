@@ -9,7 +9,7 @@ const ProjectPreview = () => {
       <div className="relative w-32 h-16">
         <Image src={"/coding.jpg"} layout="fill" />
       </div>
-      <div>
+      <div className="my-auto">
         <a href={"/"} className="font-bold underline hover:text-indigo-600">
           {title}
         </a>
