@@ -6,15 +6,7 @@ import Header from "../components/header";
 import Layout from "../components/layout";
 
 const DataAnalysis: NextPage = () => {
-  return (
-    <Layout>
-      <div className="text-slate-700 flex flex-col gap-6">
-        <Header />
-        Something about my data analysis app here...
-        <Footer />
-      </div>
-    </Layout>
-  );
+  return <div>Something about my data analysis app here...</div>;
 };
 
 export default DataAnalysis;
