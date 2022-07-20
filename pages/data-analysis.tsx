@@ -5,10 +5,12 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import Layout from "../components/layout";
 import Link from "next/link";
+import projectImage from "../public/coding.jpg";
 
 const DataAnalysis: NextPage = () => {
   return (
     <div>
+      <Image src={projectImage} />
       <div>
         Something about my data analysis app here: Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
