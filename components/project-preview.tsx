@@ -6,7 +6,7 @@ const ProjectPreview = () => {
 
   return (
     <div>
-      <div className="relative">
+      <div className="relative w-32 h-32">
         <Image src={"/coding.jpg"} layout="fill" />
       </div>
       <a href={"/"} className="font-bold underline hover:text-indigo-600">
