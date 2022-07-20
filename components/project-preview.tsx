@@ -5,7 +5,7 @@ const ProjectPreview = () => {
   const desc: string = "Processes data in Python";
 
   return (
-    <div className="flex">
+    <div className="flex gap-4">
       <div className="relative w-32 h-16">
         <Image src={"/coding.jpg"} layout="fill" />
       </div>
