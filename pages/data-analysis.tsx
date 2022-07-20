@@ -11,7 +11,7 @@ const DataAnalysis: NextPage = () => {
   return (
     <div>
       <Image src={projectImage} />
-      <div>
+      <div className="mt-6">
         Something about my data analysis app here: Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
