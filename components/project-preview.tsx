@@ -8,10 +8,6 @@ interface ProjectPreviewInterface {
 }
 
 const ProjectPreview = (props: ProjectPreviewInterface) => {
-  // const title: string = "Data Analysis App";
-  // const desc: string = "Processes data in Python";
-  // const linkUrl: string = "/data-analysis";
-
   return (
     <div className="flex gap-4">
       <div className="relative w-32 h-16">
