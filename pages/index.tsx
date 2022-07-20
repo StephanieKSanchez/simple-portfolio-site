@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Profile />
-      <div>
+      <div className="mt-4">
         <ProjectPreview />
       </div>
     </div>
