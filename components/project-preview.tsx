@@ -5,13 +5,14 @@ interface ProjectPreviewInterface {
   title: string;
   desc: string;
   linkUrl: string;
+  image: string;
 }
 
 const ProjectPreview = (props: ProjectPreviewInterface) => {
   return (
     <div className="flex gap-4">
       <div className="relative w-32 h-16">
-        <Image src={"/coding.jpg"} layout="fill" />
+        <Image src={props.image} layout="fill" />
       </div>
       <div className="my-auto">
         <Link href={props.linkUrl}>
