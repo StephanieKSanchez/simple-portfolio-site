@@ -38,7 +38,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Profile />
-      <div className="mt-4">{projectPreviewElements}</div>
+      <div className="mt-4 flex flex-col gap-2">{projectPreviewElements}</div>
     </div>
   );
 };
