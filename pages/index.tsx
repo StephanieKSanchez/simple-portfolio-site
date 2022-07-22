@@ -10,8 +10,20 @@ const Home: NextPage = () => {
   projectMetaDataArray.push({
     title: "Data Analysis App",
     desc: "Processes data in Python",
-    linkUrl: "/data-analysi",
+    linkUrl: "/data-analysis",
     image: "/coding.jpg",
+  });
+  projectMetaDataArray.push({
+    title: "Sound Processing App",
+    desc: "Cleans up podcast audio",
+    linkUrl: "/sound-processing",
+    image: "/headphone.jpg",
+  });
+  projectMetaDataArray.push({
+    title: "Social Media Tracker",
+    desc: "Tracks time and usage",
+    linkUrl: "/social-tracker",
+    image: "/youtube.jpg",
   });
 
   const projectPreviewElements = [];
