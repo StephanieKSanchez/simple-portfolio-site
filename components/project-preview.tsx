@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface ProjectPreviewInterface {
+export interface ProjectPreviewInterface {
   title: string;
   desc: string;
   linkUrl: string;
