@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 
   for (let i = 0; i < projectMetaDataArray.length; i++) {
     const metaData = projectMetaDataArray[i]; //take the metaData
-    const element = <ProjectPreview {...metaData} />; // create project preview element out of it
+    const element = <ProjectPreview {...metaData} key={i} />; // create project preview element out of it
     projectPreviewElements.push(element); // push this into my array containing all my elements
   }
 
