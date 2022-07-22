@@ -6,6 +6,7 @@ import ProjectPreview, {
 
 const Home: NextPage = () => {
   const projectMetaDataArray = [];
+
   projectMetaDataArray.push({
     title: "Data Analysis App",
     desc: "Processes data in Python",
@@ -13,13 +14,19 @@ const Home: NextPage = () => {
     image: "/coding.jpg",
   });
 
+  const projectPreviewElements = [];
+  // <ProjectPreview {...ProjectPreviewData} />
+
+  for (let i = 0; i < projectMetaDataArray.length; i++) {
+    const metaData = projectMetaDataArray[i]; //take the metaData
+    const element = <ProjectPreview {...metaData} />; // create project preview element out of it
+    projectPreviewElements.push(element); // push this into my array containing all my elements
+  }
+
   return (
     <div>
       <Profile />
-      <div className="mt-4">
-        <ProjectPreview {...ProjectPreviewData} />
-        {/* spread operator breaks the object into its seperate elements & submits them as individual fields */}
-      </div>
+      <div className="mt-4">{projectPreviewElements}</div>
     </div>
   );
 };
