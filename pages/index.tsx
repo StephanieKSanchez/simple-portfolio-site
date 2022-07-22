@@ -17,6 +17,7 @@ const Home: NextPage = () => {
       <Profile />
       <div className="mt-4">
         <ProjectPreview {...ProjectPreviewData} />
+        {/* spread operator breaks the object into its seperate elements & submits them as individual fields */}
       </div>
     </div>
   );
