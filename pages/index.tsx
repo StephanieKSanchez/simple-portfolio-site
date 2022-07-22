@@ -5,12 +5,13 @@ import ProjectPreview, {
 } from "../components/project-preview";
 
 const Home: NextPage = () => {
-  const ProjectPreviewData: ProjectPreviewInterface = {
+  const projectMetaDataArray = [];
+  projectMetaDataArray.push({
     title: "Data Analysis App",
     desc: "Processes data in Python",
     linkUrl: "/data-analysi",
     image: "/coding.jpg",
-  };
+  });
 
   return (
     <div>
