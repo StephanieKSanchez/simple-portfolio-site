@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
-  const icon = <FontAwesomeIcon icon={faCoffee} />;
+  const icon = <FontAwesomeIcon icon={faGithub} />;
   return (
     <div className="text-center border-t border-slate-300 p-4 text-slate-400">
       <div>Designed and built Stephanie</div>
