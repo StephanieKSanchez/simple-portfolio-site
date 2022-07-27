@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import projectImage from "../public/coding.jpg";
+import projectImage from "../public/headphone.jpg";
 
 const SoundProcessing: NextPage = () => {
   return (
